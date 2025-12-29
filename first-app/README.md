@@ -23,3 +23,4 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
+<img width="1410" height="840" alt="sap_backend_screenshot" src="https://github.com/user-attachments/assets/3968c495-3548-4ce3-a7e7-b6dc014d3426" />
