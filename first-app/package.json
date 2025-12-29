@@ -1,0 +1,30 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "private": true,
+
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+
+  "scripts": {
+    "start": "cds-serve"
+  },
+
+  "cds": {
+    "requires": {
+      "auth": {
+        "kind": "dummy"
+      }
+    },
+    "server": {
+      "csrf": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+### Create Order
+POST http://localhost:54931/odata/v4/order/Orders
+
+Content-Type: application/json
+
+{
+  "ID": 4
+}
+
+###
+
+### Get Orders
+GET http://localhost:54931/odata/v4/order/Orders
+Accept: application/json
+
+GET http://localhost:54931/odata/v4/order/Orders?$top=2
+Accept: application/json
+
+GET http://localhost:54931/odata/v4/order/Orders?$filter=2
+Accept: application/json
+###
+
+GEThttp://localhost:4004/odata/v4/order/Orders?$filter=ID gt 8&$orderby=ID asc&$top=3
+Accept: application/json
